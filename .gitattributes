@@ -1,0 +1,2 @@
+# Preserve the byte hashes in the reference snapshot on every platform.
+* -text

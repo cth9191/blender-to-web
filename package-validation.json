@@ -1,6 +1,6 @@
 {
   "status": "passed",
-  "manifest_files_verified": 80,
+  "manifest_files_verified": 81,
   "checks": [
     "skill frontmatter validator",
     "fresh destination copy",

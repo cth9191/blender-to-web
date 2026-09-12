@@ -2,6 +2,11 @@
   "snapshot": "2026-09-11",
   "files": [
     {
+      "path": ".gitattributes",
+      "bytes": 82,
+      "sha256": "c994b4ea8b44cf4d1f60959dad9551b62551c3777488d85f4daf628333a66d33"
+    },
+    {
       "path": ".gitignore",
       "bytes": 75,
       "sha256": "2ea33269fb9075dfbf3f1cf4aa549312c291400eaef82f656ec5f70e55ee35ce"
