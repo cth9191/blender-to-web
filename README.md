@@ -20,6 +20,25 @@ The infinity above is real geometry in the browser. You can brush its tiles apar
 
 This is a workflow and example code, not a Blender plugin or a one-click converter. Blender physics, hair dynamics, constraints and lighting do not automatically become browser behavior. The runtime implements its own motion and lighting.
 
+## How we built the original
+
+**Blender to Web was created after these experiments.** We first built and refined the shell and infinity using existing skills, executable tools and custom code, then packaged the successful handoff and lessons into this repository.
+
+| What we used | Role in the original work |
+| --- | --- |
+| Image-generation tools | Visual concepts and landing-page mockups to guide the build |
+| Blender Agent Studio skills | Modeling, rendering, animation, asset validation and iterative refinement guidance; its MCP integration guidance also helped assess connection options |
+| Blender Python through the command line | Actual scene construction, rendering, GLB export and fresh-import validation; the reproducible scripts are included here |
+| Native computer use | Opened and visually inspected the earlier shell scene in Blender; separate from the scripted build and rendered-image checks |
+| Frontend Design and Impeccable skills | Website composition, design refinement and review |
+| Custom Three.js code and browser checks | Live motion, visitor interactions, lighting, scroll behavior, screenshots and runtime verification |
+
+We checked a configured Blender MCP connection, but its live scene connection failed because the add-on server was not listening. The build proceeded through scripts; a working Blender MCP was not the mechanism that produced these assets. MCP remains an optional way to inspect or edit an open scene when available.
+
+A **skill supplies instructions**, while a **tool executes actions**. This new skill captures the Blender-to-browser workflow and working reference; it does not bundle those other skills, install Blender, supply an image generator or replace general modeling expertise. You do not need our entire original skill collection to run the example or its included Blender scripts. For a new complex asset, complementary Blender and design skills can still help.
+
+The four-step guide below is the simplified workflow we distilled afterward. The original work involved multiple experiments and revisions, rather than one prompt producing the finished website.
+
 ## What to install
 
 | What you want to do | Requirements |
