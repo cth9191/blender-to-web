@@ -1,0 +1,32 @@
+{
+  "after_drag": [
+    0.6407392398805497,
+    1.0168697597876446
+  ],
+  "0.1": [
+    0.6412919801166828,
+    1.0178524090963252
+  ],
+  "0.4": [
+    0.6412871153585701,
+    1.0178437606374584
+  ],
+  "0.88": [
+    0.6412910297510956,
+    1.0178507195575037
+  ],
+  "0": [
+    0.641292012335459,
+    1.0178524663741493
+  ],
+  "status": "passed",
+  "checks": [
+    "drag orientation preserved entering story",
+    "same orientation through scatter and reassembly",
+    "orientation preserved returning to hero and re-entering",
+    "same canvas and one GLB request",
+    "expanded state closes without rotation reset",
+    "explicit Reset still works"
+  ],
+  "errors": []
+}

@@ -27,3 +27,7 @@ To rebuild assets, run Blender with `--background --python outputs/infinity-scul
 Browser verification scripts require Python Playwright, its matching browser setup and a running server on 4175. The hardware tests use installed Chrome and Windows D3D11 flags; adapt those flags elsewhere. Do not run a test on 4175 and mistake a different project's existing server for the copied project.
 
 Good first variations: centerline curve, tile silhouette, tile spacing, material palette, pulse speed/width, scatter radius, stiffness/damping and camera framing. Change one family at a time and compare rest/interaction captures. A robotic arm or face needs a different geometry and motion adapter.
+
+## Preserve visitor orientation through scrolling
+
+The same scene and canvas continue from hero to story. Keep the visitor rotation and inertia separate from scroll-driven offsets. Entering a story must not reset those values. The reference retains the orientation; manual expansion eases closed so story scatter can take over. The explicit Reset button still restores the initial angle. The regression check in `assets/reference-project/work/check_orientation.py` confirms rotation continuity, one GLB request and the same canvas through both scroll directions.

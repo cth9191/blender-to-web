@@ -1,6 +1,6 @@
 {
   "status": "passed",
-  "manifest_files_verified": 84,
+  "manifest_files_verified": 88,
   "checks": [
     "skill frontmatter validator",
     "fresh destination copy",
@@ -17,7 +17,8 @@
     "additional linked Blender and browser evidence preserved with verified hashes",
     "README local links and images resolve",
     "skill installer fresh destination succeeds",
-    "skill installer refuses existing destination"
+    "skill installer refuses existing destination",
+    "drag rotation continuity verified through scroll transitions; same canvas and one GLB load"
   ],
   "limits": [
     "No Blender rebuild performed for packaging; original exported assets and historical validation retained.",

@@ -115,7 +115,13 @@ totalEmissiveRadiance+=vec3(0.88,1.0,0.004)*lightWave*uPulseGain*uSurfaceGlow;
   function setActive(value){if(disposed)return;if(value===active){updateControls();return;}active=value;diag.active=value;updateControls();if(value){last=performance.now();raf=requestAnimationFrame(tick);}else{cancel();cancelAnimationFrame(raf);}}
   listen(canvas,'webglcontextlost',e=>{e.preventDefault();setActive(false);onFailure();});
   await renderer.compileAsync(scene,camera);renderer.render(scene,camera);if(!renderer.info.programs.every(p=>p.diagnostics?.runnable!==false))throw Error('Shader compilation failed');
-  function setStory(value){if(disposed)return;if(value.active&&!story.active){expanded=false;rotation.set(.17,-.12);inertia.set(0,0);updateControls();}story=value;}
+  function setStory(value){
+   if(disposed)return;
+   // Scroll adds motion to the visitor's orientation; it does not reset it.
+   // Expansion still eases closed so the story can control tile separation.
+   if(value.active&&!story.active){expanded=false;updateControls();}
+   story=value;
+  }
   return {setActive,setStory,dispose};
  }catch(e){dispose();throw e;}
 }

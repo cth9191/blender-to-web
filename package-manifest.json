@@ -218,8 +218,8 @@
     },
     {
       "path": "assets/reference-project/outputs/infinity-site/sculpture.js",
-      "bytes": 14553,
-      "sha256": "1798a202682ca8c82d6004440c121fad8e7c2c42937fde0ff99d15cdd06345ae"
+      "bytes": 14681,
+      "sha256": "746ce60ce024759eb060f32b92d823b0a27430bdb6ca3e8827e8e6a5ca600c21"
     },
     {
       "path": "assets/reference-project/outputs/infinity-site/server.cjs",
@@ -332,9 +332,29 @@
       "sha256": "613b9b8e9fedd08ff9946aa64e6b81f9611b11eb65f0551a2ad436d48a0dac3b"
     },
     {
+      "path": "assets/reference-project/outputs/scroll-refinement/orientation-hero.png",
+      "bytes": 697072,
+      "sha256": "17b31a32d44be78197a26a8b551a73bc49e7b4bf5d33556fc95f0b91674ac49d"
+    },
+    {
+      "path": "assets/reference-project/outputs/scroll-refinement/orientation-returned.png",
+      "bytes": 700876,
+      "sha256": "37838155ec928e0d6513ae8d536a6a5c4aa8e2dbc77d6145998320e5664ba5b9"
+    },
+    {
+      "path": "assets/reference-project/outputs/scroll-refinement/orientation-validation.json",
+      "bytes": 701,
+      "sha256": "750dd616327c9442f3748054357d2e952d2c4d89765f3174e2376220443fedb4"
+    },
+    {
       "path": "assets/reference-project/outputs/scroll-refinement/validation.json",
       "bytes": 7328,
       "sha256": "216acb6baf26887ece5c1fa5747dbdf89f4554712a9fe919830076fcc49b2e97"
+    },
+    {
+      "path": "assets/reference-project/work/check_orientation.py",
+      "bytes": 2603,
+      "sha256": "c4406ca09a4161692bdc0aa5f2dab6a5ecbba9d968d6ebe0cad39fca52b854bc"
     },
     {
       "path": "assets/reference-project/work/landing-build/check-scroll.py",
@@ -393,8 +413,8 @@
     },
     {
       "path": "references/infinity.md",
-      "bytes": 3627,
-      "sha256": "0c53f2998a7543c8752eaf25c1ce5f74d074bfea363c59cf97d597ccc3257303"
+      "bytes": 4195,
+      "sha256": "d52819ec831c0155d4648f3a07e2939139cb80cbc0993b2e5abbfb65143caee8"
     },
     {
       "path": "references/prompts.md",
