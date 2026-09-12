@@ -8,7 +8,7 @@ An agent skill, a runnable reference project, and a documented workflow for goin
 
 The infinity above is real geometry in the browser. You can brush its tiles apart, drag to rotate, click to expand and reassemble, and watch a light wave travel around its surface. Scrolling carries it through a story before a working, fictional notebook demo.
 
-[Run the example](#run-the-example) · [Install the skill](#install-the-codex-skill) · [Workflow](references/workflow.md) · [Prompt library](references/prompts.md) · [Blender source](assets/reference-project/outputs/infinity-sculpture/build.py)
+[Run the example](#run-the-example) · [Install the skill](#install-the-codex-skill) · [Four-step practical guide](#four-step-practical-guide) · [Prompt library](references/prompts.md) · [Blender source](assets/reference-project/outputs/infinity-sculpture/build.py)
 
 ## What this does
 
@@ -91,6 +91,83 @@ Alternatively, copy this repository's files into a folder named `blender-to-web`
 > Use $blender-to-web to create an interactive robotic iris hero for a fictional optics product. Start with a visual direction, design the geometry and interaction contract, and use the APERTURE reference where appropriate.
 
 The skill can guide an agent through the work; it does not guarantee any coding model will reproduce a complex design in one attempt. General Blender specialist skills can complement it, but this repository does not require a particular MCP integration. No provider credential is bundled.
+
+## Four-step practical guide
+
+**Mockup → Blender model and inspection → Interactive website → Polish and test.**
+
+After installing the skill, open a Codex task in your new project folder. Invoke `$blender-to-web` in the first prompt; continue the remaining steps in that same task. In a new task, invoke it again and point the agent to your project and approved reference images.
+
+The prompts below are reusable recipes distilled from this project, **not verbatim transcripts**. They follow one example: a robotic iris for a fictional optics product. Replace that concept with your own. For our actual infinity direction, see the [saved concept prompts](assets/reference-project/outputs/hero-concepts/prompts.md), [landing-page mockup prompts](assets/reference-project/outputs/landing-page-mockups/prompts.md), and [sculpture brief](assets/reference-project/outputs/infinity-sculpture/contract.md).
+
+### 1. Design the look
+
+Copy this into your new task:
+
+```text
+Use $blender-to-web to create a living 3D hero for a fictional optics
+product called LUMA. The centerpiece is a sculptural robotic iris.
+Generate three website mockup images with different art directions.
+Try charcoal and electric yellow for one. Show the headline, navigation
+and CTA, with the entire sculpture visible on a large desktop screen.
+Plan for a subtle idle light pulse, click to open/close, and drag to rotate.
+Use a still-image fallback for mobile. Keep the geometry plausible to
+build in Blender. Show me the mockups and wait for my choice before modeling.
+```
+
+**Review:** Choose the silhouette, colors, product story and page composition. Ask for another variation if needed. Image generation requires an available image-generation tool; this skill does not install one. The selected image is a visual reference for modeling, not an automatically converted 3D asset.
+
+### 2. Build and inspect in Blender
+
+Attach or identify the selected mockup, then send:
+
+```text
+Use this mockup as the approved direction. Build the iris in Blender
+using reproducible Python, starting with a simple shape and camera check.
+Keep the editable .blend and builder script. Make its blades separate
+parts with stable names and pivots so the browser can animate them.
+Export an efficient GLB and verify it by importing it into a fresh scene.
+Show rendered previews of the closed and open poses plus a side view.
+Compare them to the mockup, fix visible problems, and let me review
+the previews before integrating the asset into the website.
+```
+
+**Review:** Check proportions, materials, blade movement and camera framing. You can inspect renders first and open the `.blend` for a closer look. Export and rendering may happen in the same build; the checkpoint is reviewing the asset before website integration.
+
+### 3. Build the interactive website
+
+Once the asset looks right:
+
+```text
+Build the website around the approved iris using Three.js and the GLB.
+Match the selected mockup's layout, typography and lighting. Implement
+the idle light pulse, click-to-open/close and drag-to-rotate behavior in
+the browser. Distinguish clicks from drags and preserve rotation when
+scrolling. Keep text and buttons as normal accessible HTML. Add a pause
+control and a still fallback for mobile, reduced motion and graphics
+failure. Show the page in the browser pane so I can try it.
+```
+
+**Review:** Try the interactions and scroll through the page. Blender supplies the asset; the agent writes the website and browser behavior. Exporting a GLB does not transfer Blender's physics engine or recreate its rendered lighting automatically.
+
+### 4. Polish and test
+
+After trying the working page:
+
+```text
+Compare browser screenshots against our approved mockup at matching
+viewport sizes. Refine composition, lighting, text flow and motion.
+Check idle, click, drag, scroll, pause and fallback states. Check narrow
+layouts and keyboard access. Measure asset download size and frame timing,
+recording the actual device and browser used. Pause rendering when hidden
+or offscreen. Fix issues you find, then give me the runnable website,
+Blender source, export, poster and a short report of what was verified
+and what still needs testing on other hardware.
+```
+
+**Review:** Judge the result in motion as well as in screenshots. A desktop GPU result does not establish performance on an average laptop; test representative hardware before making that claim. Repeat the relevant step when you want to change the design.
+
+For a head start, use the copy helper below. It gives you the working infinity baseline; a new iris needs its own geometry and motion code. The skill guides that adaptation rather than making every asset interchangeable.
 
 ## Start a new project without changing the reference
 

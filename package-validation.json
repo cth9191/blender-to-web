@@ -23,5 +23,14 @@
   "limits": [
     "No Blender rebuild performed for packaging; original exported assets and historical validation retained.",
     "Runtime smoke test used local Windows Chrome / RTX 5090."
-  ]
+  ],
+  "documentation_update": {
+    "date": "2026-09-12",
+    "checks": [
+      "Four-step README guide: local file links and section anchors resolve",
+      "All existing manifest entries verified; README hash updated"
+    ],
+    "readme_local_links_checked": 28,
+    "runtime_checks_rerun": false
+  }
 }
