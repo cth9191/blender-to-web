@@ -46,6 +46,7 @@ The four-step guide below is the simplified workflow we distilled afterward. The
 | View the supplied website | [Node.js](https://nodejs.org/en/download) and a browser; a hardware-accelerated WebGL 2 browser is needed for live 3D |
 | Download the repository | Git, or GitHub's **Code → Download ZIP** |
 | Use the agent skill | Codex plus this skill; Python 3.10+ for the optional installer/copy helper |
+| Follow our modeling workflow for a new asset (recommended) | Separately install [Blender Agent Studio](https://github.com/ifBars/blender-agent-studio#install); see [companion skills](#recommended-companion-skills) |
 | Rebuild or edit the sculpture | [Blender](https://www.blender.org/download/); reference authored with Blender 5.2.1 LTS |
 | Run the saved browser checks | Python, Playwright and installed Google Chrome; see [testing](#testing-and-known-limits) |
 | Convert a rebuilt macro render to WebP | Python with Pillow |
@@ -53,6 +54,21 @@ The four-step guide below is the simplified workflow we distilled afterward. The
 The ready-to-run website does **not** require Blender, Figma, a Blender MCP server, an API key, a paid image/video model, or an npm dependency install. Three.js and Inter are included locally with their license notices.
 
 The reference was tested using Node 22.22.2, Python 3.13.7, Windows Chrome and an RTX 5090. Node's current LTS is a suitable starting point for new installs. Other environments need their own performance verification.
+
+## Recommended companion skills
+
+**For the four-step tutorial, we recommend installing Blender Agent Studio alongside Blender to Web before starting a new model.** It is an independent AI skill collection available as a Codex plugin. It does not come with Blender and is not included by this repository's installer.
+
+Follow the [Blender Agent Studio installation guide](https://github.com/ifBars/blender-agent-studio#install), which also links to a skills-only option. The full plugin currently requires Codex with plugin support, Blender and Bun 1.3.5 or newer. Open a new Codex task after installation. Its optional tooling is separate from the Blender Lab live connection discussed above; installing skills alone does not establish that connection.
+
+Blender Agent Studio guides modeling, rendering and validation. Blender to Web guides export, browser interaction and website integration. To use them together, add this sentence to the step-one prompt below:
+
+```text
+Also use the installed Blender Agent Studio modeling, rendering and
+asset-validation skills when we reach the Blender stage.
+```
+
+Frontend Design or Impeccable can additionally help with page design. These companion skills are recommendations for authoring new work; running the supplied website or rebuilding it with the included scripts does not require them. Our local Blender Agent Studio collection had adaptations, so the latest upstream package may differ from the one used for the original experiments.
 
 ## Run the example
 

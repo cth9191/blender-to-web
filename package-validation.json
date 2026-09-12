@@ -30,7 +30,7 @@
       "Four-step README guide: local file links and section anchors resolve",
       "All existing manifest entries verified; README hash updated"
     ],
-    "readme_local_links_checked": 28,
+    "readme_local_links_checked": 29,
     "runtime_checks_rerun": false
   }
 }
