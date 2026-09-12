@@ -343,8 +343,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 2596,
-      "sha256": "22d4b453144cbaac0314296fc3a732df3e7e7caed49a59d4899d46891899d5b7"
+      "bytes": 13952,
+      "sha256": "b2852dc10e351b1c483a6b969802ec5d65aacf5ba417c748eca5fe98d42a09a8"
+    },
+    {
+      "path": "references/fiber-source/closed.png",
+      "bytes": 663573,
+      "sha256": "e4b2b0656484ca4d8a1fd4480943a0e209ff8f3e032ba478a65df90598ed7d13"
     },
     {
       "path": "references/fiber-source/export-metrics.json",
@@ -355,6 +360,11 @@
       "path": "references/fiber-source/export_live.py",
       "bytes": 2691,
       "sha256": "0ddec528115f0277280d01b52918373020e3980361b0fb1aaf94c1fccc5a15c7"
+    },
+    {
+      "path": "references/fiber-source/interactive-brush.png",
+      "bytes": 866745,
+      "sha256": "ce1d2aad79b01b42ebc6548925a468ab9ff68b459b0caaa27601e8e3601872c8"
     },
     {
       "path": "references/fiber-source/live-hero.js",
@@ -395,6 +405,11 @@
       "path": "references/workflow.md",
       "bytes": 4306,
       "sha256": "017c82277ad320d8be5f4201e031a8ee2a0dbc117abf308716862e9be2306248"
+    },
+    {
+      "path": "scripts/install_skill.py",
+      "bytes": 1089,
+      "sha256": "2e4dc6df136f9b7cc42ec2003d0f2c662445bcc4739e34de6da3e370d8820e07"
     },
     {
       "path": "scripts/new_project.py",
