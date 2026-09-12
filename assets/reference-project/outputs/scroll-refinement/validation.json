@@ -1,0 +1,352 @@
+[
+  {
+    "width": 1672,
+    "p": 0,
+    "texts": [
+      {
+        "class": "copy hero-copy",
+        "top": 208.3390655517578,
+        "opacity": "1",
+        "inert": false
+      },
+      {
+        "class": "story-beat scattered",
+        "top": 1172.452880859375,
+        "opacity": "0",
+        "inert": true
+      },
+      {
+        "class": "story-beat connected",
+        "top": 2025.1846923828125,
+        "opacity": "0",
+        "inert": true
+      }
+    ],
+    "scatter": 0
+  },
+  {
+    "width": 1672,
+    "p": 0.1,
+    "texts": [
+      {
+        "class": "copy hero-copy",
+        "top": -17.66094970703125,
+        "opacity": "1",
+        "inert": false
+      },
+      {
+        "class": "story-beat scattered",
+        "top": 946.4528198242188,
+        "opacity": "0.0746903",
+        "inert": true
+      },
+      {
+        "class": "story-beat connected",
+        "top": 1799.1846923828125,
+        "opacity": "0",
+        "inert": true
+      }
+    ],
+    "scatter": 0
+  },
+  {
+    "width": 1672,
+    "p": 0.25,
+    "texts": [
+      {
+        "class": "copy hero-copy",
+        "top": -356.66094970703125,
+        "opacity": "0.984787",
+        "inert": false
+      },
+      {
+        "class": "story-beat scattered",
+        "top": 607.4528198242188,
+        "opacity": "1",
+        "inert": false
+      },
+      {
+        "class": "story-beat connected",
+        "top": 1460.1846923828125,
+        "opacity": "0",
+        "inert": true
+      }
+    ],
+    "scatter": 0.3914393239335842
+  },
+  {
+    "width": 1672,
+    "p": 0.4,
+    "texts": [
+      {
+        "class": "copy hero-copy",
+        "top": -694.660888671875,
+        "opacity": "0",
+        "inert": true
+      },
+      {
+        "class": "story-beat scattered",
+        "top": 269.45281982421875,
+        "opacity": "1",
+        "inert": false
+      },
+      {
+        "class": "story-beat connected",
+        "top": 1122.1846923828125,
+        "opacity": "0",
+        "inert": true
+      }
+    ],
+    "scatter": 0.78
+  },
+  {
+    "width": 1672,
+    "p": 0.65,
+    "texts": [
+      {
+        "class": "copy hero-copy",
+        "top": -1259.660888671875,
+        "opacity": "0",
+        "inert": true
+      },
+      {
+        "class": "story-beat scattered",
+        "top": -295.54718017578125,
+        "opacity": "0.548603",
+        "inert": true
+      },
+      {
+        "class": "story-beat connected",
+        "top": 557.1846923828125,
+        "opacity": "0.286844",
+        "inert": true
+      }
+    ],
+    "scatter": 0.537731377125369
+  },
+  {
+    "width": 1672,
+    "p": 0.88,
+    "texts": [
+      {
+        "class": "copy hero-copy",
+        "top": -1778.660888671875,
+        "opacity": "0",
+        "inert": true
+      },
+      {
+        "class": "story-beat scattered",
+        "top": -814.5472412109375,
+        "opacity": "0",
+        "inert": true
+      },
+      {
+        "class": "story-beat connected",
+        "top": 284.3346862792969,
+        "opacity": "1",
+        "inert": false
+      }
+    ],
+    "scatter": 0
+  },
+  {
+    "width": 1672,
+    "p": 0,
+    "texts": [
+      {
+        "class": "copy hero-copy",
+        "top": 208.3390655517578,
+        "opacity": "1",
+        "inert": false
+      },
+      {
+        "class": "story-beat scattered",
+        "top": 1172.452880859375,
+        "opacity": "0",
+        "inert": true
+      },
+      {
+        "class": "story-beat connected",
+        "top": 2025.1846923828125,
+        "opacity": "0",
+        "inert": true
+      }
+    ],
+    "scatter": 0
+  },
+  {
+    "width": 1280,
+    "p": 0,
+    "texts": [
+      {
+        "class": "copy hero-copy",
+        "top": 144.47312927246094,
+        "opacity": "1",
+        "inert": false
+      },
+      {
+        "class": "story-beat scattered",
+        "top": 883.756591796875,
+        "opacity": "0",
+        "inert": true
+      },
+      {
+        "class": "story-beat connected",
+        "top": 1527.0400390625,
+        "opacity": "0",
+        "inert": true
+      }
+    ],
+    "scatter": 0
+  },
+  {
+    "width": 1280,
+    "p": 0.1,
+    "texts": [
+      {
+        "class": "copy hero-copy",
+        "top": -28.52685546875,
+        "opacity": "1",
+        "inert": false
+      },
+      {
+        "class": "story-beat scattered",
+        "top": 710.756591796875,
+        "opacity": "0.0748797",
+        "inert": true
+      },
+      {
+        "class": "story-beat connected",
+        "top": 1354.0400390625,
+        "opacity": "0",
+        "inert": true
+      }
+    ],
+    "scatter": 0
+  },
+  {
+    "width": 1280,
+    "p": 0.25,
+    "texts": [
+      {
+        "class": "copy hero-copy",
+        "top": -287.52685546875,
+        "opacity": "0.985423",
+        "inert": true
+      },
+      {
+        "class": "story-beat scattered",
+        "top": 451.7565612792969,
+        "opacity": "1",
+        "inert": false
+      },
+      {
+        "class": "story-beat connected",
+        "top": 1095.0400390625,
+        "opacity": "0",
+        "inert": true
+      }
+    ],
+    "scatter": 0.3899999999999999
+  },
+  {
+    "width": 1280,
+    "p": 0.4,
+    "texts": [
+      {
+        "class": "copy hero-copy",
+        "top": -546.52685546875,
+        "opacity": "0",
+        "inert": true
+      },
+      {
+        "class": "story-beat scattered",
+        "top": 192.75656127929688,
+        "opacity": "1",
+        "inert": false
+      },
+      {
+        "class": "story-beat connected",
+        "top": 836.0399780273438,
+        "opacity": "0",
+        "inert": true
+      }
+    ],
+    "scatter": 0.78
+  },
+  {
+    "width": 1280,
+    "p": 0.65,
+    "texts": [
+      {
+        "class": "copy hero-copy",
+        "top": -978.52685546875,
+        "opacity": "0",
+        "inert": true
+      },
+      {
+        "class": "story-beat scattered",
+        "top": -239.243408203125,
+        "opacity": "0.551078",
+        "inert": true
+      },
+      {
+        "class": "story-beat connected",
+        "top": 404.03997802734375,
+        "opacity": "0.28484",
+        "inert": true
+      }
+    ],
+    "scatter": 0.5387362768207631
+  },
+  {
+    "width": 1280,
+    "p": 0.88,
+    "texts": [
+      {
+        "class": "copy hero-copy",
+        "top": -1376.52685546875,
+        "opacity": "0",
+        "inert": true
+      },
+      {
+        "class": "story-beat scattered",
+        "top": -637.243408203125,
+        "opacity": "0",
+        "inert": true
+      },
+      {
+        "class": "story-beat connected",
+        "top": 195.0399932861328,
+        "opacity": "1",
+        "inert": false
+      }
+    ],
+    "scatter": 0
+  },
+  {
+    "width": 1280,
+    "p": 0,
+    "texts": [
+      {
+        "class": "copy hero-copy",
+        "top": 144.47312927246094,
+        "opacity": "1",
+        "inert": false
+      },
+      {
+        "class": "story-beat scattered",
+        "top": 883.756591796875,
+        "opacity": "0",
+        "inert": true
+      },
+      {
+        "class": "story-beat connected",
+        "top": 1527.0400390625,
+        "opacity": "0",
+        "inert": true
+      }
+    ],
+    "scatter": 0
+  }
+]

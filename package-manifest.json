@@ -1,0 +1,405 @@
+{
+  "snapshot": "2026-09-11",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 75,
+      "sha256": "2ea33269fb9075dfbf3f1cf4aa549312c291400eaef82f656ec5f70e55ee35ce"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 248,
+      "sha256": "a6117269f4ec8834076285ea7e8ae1e8216b992ca768300b346a1a5b6cf6413c"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 468,
+      "sha256": "a36b4833b419057569166f853a2c243c16c62304202bf82427d72163d7743c6e"
+    },
+    {
+      "path": "assets/reference-project/outputs/hero-concepts/04-magnetic-sculpture.png",
+      "bytes": 1781421,
+      "sha256": "f2a27b46efbe14d5a3c6a0da86c2e3f99d471a7804cf57619c0130455af570f1"
+    },
+    {
+      "path": "assets/reference-project/outputs/hero-concepts/prompts.md",
+      "bytes": 14557,
+      "sha256": "653736111f381d37a6bc16e2dd41d888f0376fda6148198345c9db27d2b5d854"
+    },
+    {
+      "path": "assets/reference-project/outputs/infinity-pulse/pulse-a.png",
+      "bytes": 595461,
+      "sha256": "87b04f0b45abb880651f656e7d311d879e7c5bb1054e55c1d1c37237dfd19391"
+    },
+    {
+      "path": "assets/reference-project/outputs/infinity-pulse/pulse-b.png",
+      "bytes": 593521,
+      "sha256": "e514c817f27d3fd0927d5e63ae450d19e90f0c3a419c62833795ecca9f53ee05"
+    },
+    {
+      "path": "assets/reference-project/outputs/infinity-pulse/validation.json",
+      "bytes": 2315,
+      "sha256": "5c238ed5821fea8731241c27b4b9cf4c2405cdf34175fb9144b381e661a386e9"
+    },
+    {
+      "path": "assets/reference-project/outputs/infinity-sculpture/authored-metrics.json",
+      "bytes": 416,
+      "sha256": "6d5fb2ac04a280f52d86388a29e4672bf2ddcf1b1e1c529086dd292025f70830"
+    },
+    {
+      "path": "assets/reference-project/outputs/infinity-sculpture/browser-brush.png",
+      "bytes": 591959,
+      "sha256": "8c4bde4dcd15da8653852f8e6884d91397d202402b6ca0bcd72cdd526e761d46"
+    },
+    {
+      "path": "assets/reference-project/outputs/infinity-sculpture/browser-dragged.png",
+      "bytes": 540793,
+      "sha256": "8804a9431b0d2deaeb561195c46b56bb3caace6cd0502cc4403fba6c68204548"
+    },
+    {
+      "path": "assets/reference-project/outputs/infinity-sculpture/browser-expanded.png",
+      "bytes": 662345,
+      "sha256": "2b14fe7a7a39f8c1cb96167c10dfa8c4e7e1b3789c7243e4a89f1f780279646c"
+    },
+    {
+      "path": "assets/reference-project/outputs/infinity-sculpture/browser-idle.png",
+      "bytes": 596969,
+      "sha256": "3918654856ac6da16483c5a3712dc188692c68569859cf241708a123d667ef3c"
+    },
+    {
+      "path": "assets/reference-project/outputs/infinity-sculpture/browser-validation.json",
+      "bytes": 3804,
+      "sha256": "bd5c83cc3ad33219a54203a3de16d059cf406b0ebe2b4d370207570ca96580dc"
+    },
+    {
+      "path": "assets/reference-project/outputs/infinity-sculpture/build.py",
+      "bytes": 5278,
+      "sha256": "211fcb8ff2f5c6931bd30718111170f1584c0d5b3ce270971e43f844501d17dc"
+    },
+    {
+      "path": "assets/reference-project/outputs/infinity-sculpture/contact-sheet.jpg",
+      "bytes": 117195,
+      "sha256": "ef4507924b6382d414b1644e448eb96d79929257d68563297e5511e9a25902da"
+    },
+    {
+      "path": "assets/reference-project/outputs/infinity-sculpture/contract.md",
+      "bytes": 1586,
+      "sha256": "91ec8ca76da2de343193a75111acaee7b3bb61a9f8dc37547f471403772e6b36"
+    },
+    {
+      "path": "assets/reference-project/outputs/infinity-sculpture/final_report.md",
+      "bytes": 4193,
+      "sha256": "2f48b10d01ecc5a999eb369e7986a49309d3f5e4fed519427db3b73dc3cfee94"
+    },
+    {
+      "path": "assets/reference-project/outputs/infinity-sculpture/graybox.png",
+      "bytes": 401300,
+      "sha256": "cf05834dcbb10d2093bc19a7ddb8df07e73d798b160c2c6d2a4d48c7ad9a7beb"
+    },
+    {
+      "path": "assets/reference-project/outputs/infinity-sculpture/hero.png",
+      "bytes": 689062,
+      "sha256": "865d67732d81508047da88cd9ce17e3e6febdfe69b8b148f045b62065c5f54eb"
+    },
+    {
+      "path": "assets/reference-project/outputs/infinity-sculpture/import-back.png",
+      "bytes": 227924,
+      "sha256": "5a297767ec98d965d3b773ebcb7b721454f57668b47c57440cc8508be2344727"
+    },
+    {
+      "path": "assets/reference-project/outputs/infinity-sculpture/import-front.png",
+      "bytes": 229225,
+      "sha256": "38d6c905fc8785259a030087b5b74fbb123d3aa05e956d977ede1686b570da9e"
+    },
+    {
+      "path": "assets/reference-project/outputs/infinity-sculpture/import-hero.png",
+      "bytes": 223970,
+      "sha256": "141cf07ff5cde6e6aff6c340a4561a3ca6fd2cee514d7d83747f73f6461f4fa9"
+    },
+    {
+      "path": "assets/reference-project/outputs/infinity-sculpture/import-left.png",
+      "bytes": 151206,
+      "sha256": "635c9b3236b55f79cefbbb88ed5600ec70be1a4c93c285e45a93802403b1b8c1"
+    },
+    {
+      "path": "assets/reference-project/outputs/infinity-sculpture/import-right.png",
+      "bytes": 151735,
+      "sha256": "40486f2fa741dd696d4661d89b12401ac397108ba7d560653dfeac4c801613fd"
+    },
+    {
+      "path": "assets/reference-project/outputs/infinity-sculpture/import-top.png",
+      "bytes": 181447,
+      "sha256": "160988885c8ca5be881886bfd5fd06f0935a1714cf66e19513ace37c745b0c84"
+    },
+    {
+      "path": "assets/reference-project/outputs/infinity-sculpture/import-validation.json",
+      "bytes": 1017,
+      "sha256": "f8ee81d43c299b3c632cd8958e8fbf909cd30d439ad52ca5c8494a5c1441fb85"
+    },
+    {
+      "path": "assets/reference-project/outputs/infinity-sculpture/infinity.blend",
+      "bytes": 245458,
+      "sha256": "244eaed679ee5d0fc62daf6d2217cc8bf98020698743e5efbe58c0440b3c2915"
+    },
+    {
+      "path": "assets/reference-project/outputs/infinity-sculpture/infinity.glb",
+      "bytes": 373240,
+      "sha256": "bc4779bc48a7dd8cc7f1d3103622bc9bc5c2d5e27e846293e64d4a0861eafd34"
+    },
+    {
+      "path": "assets/reference-project/outputs/infinity-sculpture/validate.py",
+      "bytes": 2822,
+      "sha256": "3ed3f5f0e5f1f3999c7fbaeb8725ca9c25f5cc4892ce0bdaad540b0bcdedfc98"
+    },
+    {
+      "path": "assets/reference-project/outputs/infinity-sculpture/verify_browser.py",
+      "bytes": 4970,
+      "sha256": "5172ba0c234edca81e4acf27b6c5eb5e87f5f2c5995e4515701b06c94cd860e0"
+    },
+    {
+      "path": "assets/reference-project/outputs/infinity-site/.impeccable/design.json",
+      "bytes": 19230,
+      "sha256": "3baab883f1914fc60246bb20c01ab2b06c0599794800bf7bc8eb7f616c83a2b6"
+    },
+    {
+      "path": "assets/reference-project/outputs/infinity-site/app.js",
+      "bytes": 10389,
+      "sha256": "c5106b93b1c062e20a2bd8be350182c53c6dc0c82b3f4479c3914c43d9097ad1"
+    },
+    {
+      "path": "assets/reference-project/outputs/infinity-site/assets/infinity.glb",
+      "bytes": 373240,
+      "sha256": "bc4779bc48a7dd8cc7f1d3103622bc9bc5c2d5e27e846293e64d4a0861eafd34"
+    },
+    {
+      "path": "assets/reference-project/outputs/infinity-site/assets/inter-400.ttf",
+      "bytes": 324820,
+      "sha256": "1b08e7fc267a5c7e1d614100f604b83e7e8a0be241f0f288faa2b3ac93a683ba"
+    },
+    {
+      "path": "assets/reference-project/outputs/infinity-site/assets/Inter-OFL.txt",
+      "bytes": 4377,
+      "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
+    },
+    {
+      "path": "assets/reference-project/outputs/infinity-site/assets/macro.webp",
+      "bytes": 266196,
+      "sha256": "b35d7627eb178f3c1b215f41beb75e63458d820c94f8b4401f164f442045104b"
+    },
+    {
+      "path": "assets/reference-project/outputs/infinity-site/assets/poster.png",
+      "bytes": 689062,
+      "sha256": "865d67732d81508047da88cd9ce17e3e6febdfe69b8b148f045b62065c5f54eb"
+    },
+    {
+      "path": "assets/reference-project/outputs/infinity-site/DESIGN.md",
+      "bytes": 12505,
+      "sha256": "311ca6c648294183bd3b398b6b4578fa2b0b2510b8e0d4b89327895a7a6effef"
+    },
+    {
+      "path": "assets/reference-project/outputs/infinity-site/index.html",
+      "bytes": 9340,
+      "sha256": "a677fbf3d2e71ade3c821f49c3e457b26ae01a591560ad22065fef6a9f7e3444"
+    },
+    {
+      "path": "assets/reference-project/outputs/infinity-site/PRODUCT.md",
+      "bytes": 910,
+      "sha256": "1bb334c0c4ddabc9a58528d0d9e57dcc6f082ae567046b2a1ade02191e583c91"
+    },
+    {
+      "path": "assets/reference-project/outputs/infinity-site/README.md",
+      "bytes": 1003,
+      "sha256": "df90934b60e5d495ca86ed373c28c151c37a78c415b4223b89eb576801f6c07c"
+    },
+    {
+      "path": "assets/reference-project/outputs/infinity-site/sculpture.js",
+      "bytes": 14553,
+      "sha256": "1798a202682ca8c82d6004440c121fad8e7c2c42937fde0ff99d15cdd06345ae"
+    },
+    {
+      "path": "assets/reference-project/outputs/infinity-site/server.cjs",
+      "bytes": 1904,
+      "sha256": "5e319e633e31727ca5659227c7a3b134b9e1216e98e584f12a0aa02a69f39ea8"
+    },
+    {
+      "path": "assets/reference-project/outputs/infinity-site/style.css",
+      "bytes": 16020,
+      "sha256": "8d8a1fc51bf4f05f8e13bd53890211dec513b71b4eb4298e8521ab4e034eaa8e"
+    },
+    {
+      "path": "assets/reference-project/outputs/infinity-site/vendor/three/BufferGeometryUtils.js",
+      "bytes": 37712,
+      "sha256": "9fb63427ce6641fa14fd0baff9cc4d1b5f9c3d85fd084bf2e90e803c44ec1797"
+    },
+    {
+      "path": "assets/reference-project/outputs/infinity-site/vendor/three/GLTFLoader.js",
+      "bytes": 122481,
+      "sha256": "40dbe3d6e74aecee096be0858ca6bd253b71a65e6fcbad9063e86add573908ea"
+    },
+    {
+      "path": "assets/reference-project/outputs/infinity-site/vendor/three/LICENSE",
+      "bytes": 1081,
+      "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+    },
+    {
+      "path": "assets/reference-project/outputs/infinity-site/vendor/three/SkeletonUtils.js",
+      "bytes": 11535,
+      "sha256": "b1632a703206c3d830de9fcbe515696770d04b71a15ee6b50afa6d2c3298c86f"
+    },
+    {
+      "path": "assets/reference-project/outputs/infinity-site/vendor/three/three.core.js",
+      "bytes": 1458113,
+      "sha256": "9edde002b066a9a05676a6127f67735b62baf399bdea529f2f7e31657da769e6"
+    },
+    {
+      "path": "assets/reference-project/outputs/infinity-site/vendor/three/three.module.js",
+      "bytes": 662772,
+      "sha256": "9052042d676cb0fdc1ddfefe193053f34b7ac0513a616fdac4535d49987812ea"
+    },
+    {
+      "path": "assets/reference-project/outputs/landing-build/desktop-hero.png",
+      "bytes": 771570,
+      "sha256": "ea2bad6939f1a96b7e05a2ca5f137901d87d089480ead9bc52acafddc6c07ab3"
+    },
+    {
+      "path": "assets/reference-project/outputs/landing-build/desktop-product.png",
+      "bytes": 173658,
+      "sha256": "d73c9c6ee06e5c415e0f0853537ba800599d951677fc0a4c6ab3b87d24db2720"
+    },
+    {
+      "path": "assets/reference-project/outputs/landing-build/direction.md",
+      "bytes": 1989,
+      "sha256": "1d84ccef057d636433fd7fb866c112181e59279e9139354c8e040d07acfd9430"
+    },
+    {
+      "path": "assets/reference-project/outputs/landing-build/README.md",
+      "bytes": 2708,
+      "sha256": "b826b912c2eec921bf92d6b729c3fd4038ad2d1b731b7baebac6b1325cb96f1a"
+    },
+    {
+      "path": "assets/reference-project/outputs/landing-build/render_macro.py",
+      "bytes": 1838,
+      "sha256": "5b2a3595389c565d6c837dabd46b017c875a104b7fcfdfd8b19fda1def1de035"
+    },
+    {
+      "path": "assets/reference-project/outputs/landing-build/review.md",
+      "bytes": 1876,
+      "sha256": "2536da9ba4c21e3ce6d037076b35f50747378932df231080b295a4b4e55b4e98"
+    },
+    {
+      "path": "assets/reference-project/outputs/landing-build/validation.json",
+      "bytes": 2459,
+      "sha256": "1abbe15acbd3929c69b7c2f11d0b392324075c6e02006da9547ced4679c5c436"
+    },
+    {
+      "path": "assets/reference-project/outputs/landing-build/verify.py",
+      "bytes": 6393,
+      "sha256": "ed59ef79cf15f721cb938dd1ecb783297573eb56e3b7695cbf14d53204662158"
+    },
+    {
+      "path": "assets/reference-project/outputs/landing-page-mockups/01-refined-hero.png",
+      "bytes": 1704467,
+      "sha256": "8ab4f264f18db114499455b552cacecf24836f4ef0816146c3e1c5dc935daccf"
+    },
+    {
+      "path": "assets/reference-project/outputs/landing-page-mockups/02-scroll-story.png",
+      "bytes": 1806552,
+      "sha256": "970fa722c1a221cb4431a906b0362359744e0a627bb7d37bcd7870127c5c5991"
+    },
+    {
+      "path": "assets/reference-project/outputs/landing-page-mockups/03-product-example.png",
+      "bytes": 1462613,
+      "sha256": "6105b68f9bf38ec29cf62971d88f1437f251d85f3d1c6f9672ba40ea8fc38ece"
+    },
+    {
+      "path": "assets/reference-project/outputs/landing-page-mockups/04-detail-and-finale.png",
+      "bytes": 1679312,
+      "sha256": "f2847e179f2ab644ffad56a41f9f4612178d68e5e10221ea9787ce9e9e501544"
+    },
+    {
+      "path": "assets/reference-project/outputs/landing-page-mockups/prompts.md",
+      "bytes": 10587,
+      "sha256": "eeb83f4a50aefe0f7f9fc0f525eacbdd541976d163d04664e4d55bb2656ff2c6"
+    },
+    {
+      "path": "assets/reference-project/outputs/scroll-refinement/final-hero-1280.png",
+      "bytes": 480698,
+      "sha256": "613b9b8e9fedd08ff9946aa64e6b81f9611b11eb65f0551a2ad436d48a0dac3b"
+    },
+    {
+      "path": "assets/reference-project/outputs/scroll-refinement/validation.json",
+      "bytes": 7328,
+      "sha256": "216acb6baf26887ece5c1fa5747dbdf89f4554712a9fe919830076fcc49b2e97"
+    },
+    {
+      "path": "assets/reference-project/work/landing-build/check-scroll.py",
+      "bytes": 1984,
+      "sha256": "0b0fa3622a63c39c2a3d321654e65e23c76af6ef0095f7404d8e9a3548110ffc"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2596,
+      "sha256": "22d4b453144cbaac0314296fc3a732df3e7e7caed49a59d4899d46891899d5b7"
+    },
+    {
+      "path": "references/fiber-source/export-metrics.json",
+      "bytes": 28765,
+      "sha256": "e55fd30474344411cf90013892248a6c21fd6314accf399e02c501a2d62cfb63"
+    },
+    {
+      "path": "references/fiber-source/export_live.py",
+      "bytes": 2691,
+      "sha256": "0ddec528115f0277280d01b52918373020e3980361b0fb1aaf94c1fccc5a15c7"
+    },
+    {
+      "path": "references/fiber-source/live-hero.js",
+      "bytes": 16708,
+      "sha256": "16a3404574d4b95b18e752ef91b1e3f32490aa8da29144966e599474bace6dee"
+    },
+    {
+      "path": "references/fiber-source/README.md",
+      "bytes": 4426,
+      "sha256": "41e39c27590937412fd16ae599e620bb875a04ea13c8040fbe575c595a6b57f0"
+    },
+    {
+      "path": "references/fiber-source/spring-validation.json",
+      "bytes": 321,
+      "sha256": "2bbc54af26fc15ca74929d6a30354b00c3194a19a364e5c6f33a6eb790c6d14a"
+    },
+    {
+      "path": "references/fiber-source/springs.js",
+      "bytes": 836,
+      "sha256": "9c4387ef5fd43190923c06176a33b06cda986b83a67905f5fddea7a605bdac2d"
+    },
+    {
+      "path": "references/fibers.md",
+      "bytes": 1310,
+      "sha256": "7a4acbdf4d27b5c0e3b4c1a7f19c1ebdabc2a60e89d0077150f55b292504ba75"
+    },
+    {
+      "path": "references/infinity.md",
+      "bytes": 3627,
+      "sha256": "0c53f2998a7543c8752eaf25c1ce5f74d074bfea363c59cf97d597ccc3257303"
+    },
+    {
+      "path": "references/prompts.md",
+      "bytes": 2752,
+      "sha256": "3a61f62dedff6a3777807944deada98b429b4a22f610ac5864d7dbd668745afd"
+    },
+    {
+      "path": "references/workflow.md",
+      "bytes": 4306,
+      "sha256": "017c82277ad320d8be5f4201e031a8ee2a0dbc117abf308716862e9be2306248"
+    },
+    {
+      "path": "scripts/new_project.py",
+      "bytes": 883,
+      "sha256": "010ec2baa5cdd0cfef39253fcfadeca1e78251fc7cf009a6bb0d4e782762a6af"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 4296,
+      "sha256": "9b0ee507703edb5dbcb3c26b7bb38c8cd528f1b2d269b3d0962b6b19b30c8966"
+    }
+  ]
+}

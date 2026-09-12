@@ -1,0 +1,154 @@
+{
+  "idle": {
+    "active": true,
+    "expanded": false,
+    "frames": 85,
+    "instances": 1792,
+    "drawCalls": 3,
+    "triangles": 336896,
+    "maxDisplacement": 0,
+    "disturbedPieces": 0,
+    "rotation": [
+      0.17,
+      -0.12
+    ],
+    "fps": 59.82053838493433,
+    "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5090 (0x00002B85) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+  },
+  "brush": {
+    "active": true,
+    "expanded": false,
+    "frames": 160,
+    "instances": 1792,
+    "drawCalls": 3,
+    "triangles": 336896,
+    "maxDisplacement": 1.1393169905148266,
+    "disturbedPieces": 218,
+    "rotation": [
+      0.17,
+      -0.12
+    ],
+    "fps": 60.00600060005998,
+    "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5090 (0x00002B85) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+  },
+  "settled": {
+    "active": true,
+    "expanded": false,
+    "frames": 291,
+    "instances": 1792,
+    "drawCalls": 3,
+    "triangles": 336896,
+    "maxDisplacement": 1.6766230310497613e-07,
+    "disturbedPieces": 0,
+    "rotation": [
+      0.17,
+      -0.12
+    ],
+    "fps": 59.99999999999996,
+    "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5090 (0x00002B85) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+  },
+  "expanded": {
+    "active": true,
+    "expanded": true,
+    "frames": 389,
+    "instances": 1792,
+    "drawCalls": 3,
+    "triangles": 336896,
+    "maxDisplacement": 2.2782180110291597,
+    "disturbedPieces": 0,
+    "rotation": [
+      0.17,
+      -0.12
+    ],
+    "fps": 60.00600060005995,
+    "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5090 (0x00002B85) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+  },
+  "dragged": {
+    "active": true,
+    "expanded": false,
+    "frames": 571,
+    "instances": 1792,
+    "drawCalls": 3,
+    "triangles": 336896,
+    "maxDisplacement": 1.9765226480637738e-10,
+    "disturbedPieces": 0,
+    "rotation": [
+      0.6899460933493967,
+      0.9119137493590341
+    ],
+    "fps": 59.999999999999986,
+    "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5090 (0x00002B85) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+  },
+  "errors": [],
+  "desktop-720": {
+    "active": true,
+    "expanded": false,
+    "frames": 73,
+    "instances": 1792,
+    "drawCalls": 3,
+    "triangles": 336896,
+    "maxDisplacement": 0,
+    "disturbedPieces": 0,
+    "rotation": [
+      0.17,
+      -0.12
+    ],
+    "fps": 59.89817310580935,
+    "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5090 (0x00002B85) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+  },
+  "desktop-retina": {
+    "active": true,
+    "expanded": false,
+    "frames": 72,
+    "instances": 1792,
+    "drawCalls": 3,
+    "triangles": 336896,
+    "maxDisplacement": 0,
+    "disturbedPieces": 0,
+    "rotation": [
+      0.17,
+      -0.12
+    ],
+    "fps": 59.814574817930705,
+    "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5090 (0x00002B85) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+  },
+  "pane": {
+    "active": true,
+    "expanded": false,
+    "frames": 73,
+    "instances": 1792,
+    "drawCalls": 3,
+    "triangles": 336896,
+    "maxDisplacement": 0,
+    "disturbedPieces": 0,
+    "rotation": [
+      0.17,
+      -0.12
+    ],
+    "fps": 59.84440454808579,
+    "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5090 (0x00002B85) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+  },
+  "mobile": {
+    "still_only": true
+  },
+  "reduced": {
+    "still_only": true
+  },
+  "checks": [
+    "local scatter affects subset",
+    "spring return without drift",
+    "click expands",
+    "keyboard reassembles",
+    "drag does not toggle",
+    "reset",
+    "pause/resume",
+    "offscreen pause",
+    "rapid toggles",
+    "reduced-motion unload/reload",
+    "context loss fallback",
+    "missing asset fallback",
+    "responsive layout",
+    "mobile still only"
+  ],
+  "status": "passed"
+}

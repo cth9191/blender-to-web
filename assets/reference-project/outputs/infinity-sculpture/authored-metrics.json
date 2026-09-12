@@ -1,0 +1,19 @@
+{
+  "blender": "5.2.1 LTS",
+  "pieces": 1792,
+  "unique_tile_triangles": 188,
+  "total_triangles": 336896,
+  "materials": [
+    "Charcoal ceramic metal",
+    "Machined titanium bevel",
+    "Acid yellow inner enamel"
+  ],
+  "curve_length": 13.85532553591593,
+  "stages": [
+    "graybox",
+    "primary tile lattice",
+    "rounded bevels and normals",
+    "three material surfaces",
+    "export"
+  ]
+}

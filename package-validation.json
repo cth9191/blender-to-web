@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "manifest_files_verified": 80,
+  "checks": [
+    "skill frontmatter validator",
+    "fresh destination copy",
+    "existing destination refused",
+    "packaged Python syntax",
+    "all manifest hashes match",
+    "isolated server serves copied project",
+    "GLB served matches Blender export",
+    "live 1792-instance renderer initializes",
+    "expansion works",
+    "prepared notebook works",
+    "reduced motion fallback works",
+    "no JavaScript errors",
+    "additional linked Blender and browser evidence preserved with verified hashes"
+  ],
+  "limits": [
+    "No Blender rebuild performed for packaging; original exported assets and historical validation retained.",
+    "Runtime smoke test used local Windows Chrome / RTX 5090."
+  ]
+}

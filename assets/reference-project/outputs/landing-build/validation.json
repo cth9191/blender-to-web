@@ -1,0 +1,96 @@
+{
+  "hero": {
+    "active": true,
+    "expanded": false,
+    "frames": 74,
+    "instances": 1792,
+    "drawCalls": 3,
+    "triangles": 336896,
+    "maxDisplacement": 0,
+    "disturbedPieces": 0,
+    "rotation": [
+      0.17,
+      -0.12
+    ],
+    "fps": 59.81457481797513,
+    "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5090 (0x00002B85) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "pulsePhase": 0.1236400000001491,
+    "pulseGain": 0.7433494892726173,
+    "pulsePeriod": 10,
+    "storyProgress": 0,
+    "storyScatter": 0
+  },
+  "scattered": {
+    "active": true,
+    "expanded": false,
+    "frames": 298,
+    "instances": 1792,
+    "drawCalls": 3,
+    "triangles": 336896,
+    "maxDisplacement": 1.6859459072173393,
+    "disturbedPieces": 0,
+    "rotation": [
+      0.17,
+      -0.12
+    ],
+    "fps": 60.00600060005999,
+    "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5090 (0x00002B85) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "pulsePhase": 0.49696000000015,
+    "pulseGain": 0.06159412071034625,
+    "pulsePeriod": 10,
+    "storyProgress": 0.39991142604074403,
+    "storyScatter": 0.78
+  },
+  "connected": {
+    "active": true,
+    "expanded": false,
+    "frames": 383,
+    "instances": 1792,
+    "drawCalls": 3,
+    "triangles": 336896,
+    "maxDisplacement": 0.0002124583556959509,
+    "disturbedPieces": 0,
+    "rotation": [
+      0.17,
+      -0.12
+    ],
+    "fps": 60.00600060005994,
+    "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5090 (0x00002B85) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "pulsePhase": 0.6386000000001515,
+    "pulseGain": 0.7580620959339257,
+    "pulsePeriod": 10,
+    "storyProgress": 0.8799822852081488,
+    "storyScatter": 0
+  },
+  "mobile": {
+    "no_overflow": true,
+    "still_only": true
+  },
+  "pane": {
+    "no_overflow": true,
+    "still_only": false
+  },
+  "desktop-small": {
+    "no_overflow": true,
+    "still_only": false
+  },
+  "status": "passed",
+  "errors": [],
+  "checks": [
+    "hero expansion preserved",
+    "scroll scatter/reassembly",
+    "inactive story focus removed",
+    "demo CTA",
+    "offscreen renderer pause",
+    "three sample questions",
+    "keyboard tab navigation",
+    "copy answer",
+    "source focus and original note",
+    "detail and finale",
+    "pause freezes pulse",
+    "reduced-motion normal-flow story",
+    "mobile still no GLB",
+    "responsive no-overflow",
+    "asset failure story fallback"
+  ]
+}

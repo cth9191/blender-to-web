@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "authored": {
+    "blender": "5.2.1 LTS",
+    "pieces": 1792,
+    "unique_tile_triangles": 188,
+    "total_triangles": 336896,
+    "materials": [
+      "Charcoal ceramic metal",
+      "Machined titanium bevel",
+      "Acid yellow inner enamel"
+    ],
+    "curve_length": 13.85532553591593,
+    "stages": [
+      "graybox",
+      "primary tile lattice",
+      "rounded bevels and normals",
+      "three material surfaces",
+      "export"
+    ]
+  },
+  "imported": {
+    "pieces": 1792,
+    "triangles": 336896,
+    "unique_meshes": 1,
+    "degenerate_faces": 0,
+    "uv_maps": 1,
+    "raw_split_edges": 90,
+    "nonmanifold_after_welding_export_seams": 0
+  },
+  "observations": [
+    "Separate floating tiles are intentional magnetic fiction.",
+    "Six fixed views rendered from fresh GLB import.",
+    "Material geometry is exported; interactive forces run in the browser.",
+    "Raw split edges are export normal/UV seams; welded tile is manifold."
+  ]
+}

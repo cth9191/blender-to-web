@@ -1,0 +1,315 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-12T01:46:06.544Z",
+  "title": "Design System: APERTURE",
+  "extensions": {
+    "colorMeta": {
+      "ink": {
+        "role": "neutral",
+        "displayName": "Studio Charcoal",
+        "tonalRamp": [
+          "oklch(15% 0.0052 248.12)",
+          "oklch(26.43% 0.0052 248.12)",
+          "oklch(37.86% 0.0052 248.12)",
+          "oklch(49.29% 0.0052 248.12)",
+          "oklch(60.71% 0.0052 248.12)",
+          "oklch(72.14% 0.0052 248.12)",
+          "oklch(83.57% 0.0052 248.12)",
+          "oklch(95% 0.0052 248.12)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Warm Paper",
+        "tonalRamp": [
+          "oklch(15% 0.0120 101.48)",
+          "oklch(26.43% 0.0120 101.48)",
+          "oklch(37.86% 0.0120 101.48)",
+          "oklch(49.29% 0.0120 101.48)",
+          "oklch(60.71% 0.0120 101.48)",
+          "oklch(72.14% 0.0120 101.48)",
+          "oklch(83.57% 0.0120 101.48)",
+          "oklch(95% 0.0120 101.48)"
+        ]
+      },
+      "yellow": {
+        "role": "primary",
+        "displayName": "Acid Yellow",
+        "tonalRamp": [
+          "oklch(15% 0.2039 109.46)",
+          "oklch(26.43% 0.2039 109.46)",
+          "oklch(37.86% 0.2039 109.46)",
+          "oklch(49.29% 0.2039 109.46)",
+          "oklch(60.71% 0.2039 109.46)",
+          "oklch(72.14% 0.2039 109.46)",
+          "oklch(83.57% 0.2039 109.46)",
+          "oklch(95% 0.2039 109.46)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Sage Gray",
+        "tonalRamp": [
+          "oklch(15% 0.0113 118.08)",
+          "oklch(26.43% 0.0113 118.08)",
+          "oklch(37.86% 0.0113 118.08)",
+          "oklch(49.29% 0.0113 118.08)",
+          "oklch(60.71% 0.0113 118.08)",
+          "oklch(72.14% 0.0113 118.08)",
+          "oklch(83.57% 0.0113 118.08)",
+          "oklch(95% 0.0113 118.08)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Paper Hairline",
+        "tonalRamp": [
+          "oklch(15% 0.0120 101.48 / 0.1686)",
+          "oklch(26.43% 0.0120 101.48 / 0.1686)",
+          "oklch(37.86% 0.0120 101.48 / 0.1686)",
+          "oklch(49.29% 0.0120 101.48 / 0.1686)",
+          "oklch(60.71% 0.0120 101.48 / 0.1686)",
+          "oklch(72.14% 0.0120 101.48 / 0.1686)",
+          "oklch(83.57% 0.0120 101.48 / 0.1686)",
+          "oklch(95% 0.0120 101.48 / 0.1686)"
+        ]
+      },
+      "notebook": {
+        "role": "neutral",
+        "displayName": "Notebook Charcoal",
+        "tonalRamp": [
+          "oklch(15% 0.0126 145.05)",
+          "oklch(26.43% 0.0126 145.05)",
+          "oklch(37.86% 0.0126 145.05)",
+          "oklch(49.29% 0.0126 145.05)",
+          "oklch(60.71% 0.0126 145.05)",
+          "oklch(72.14% 0.0126 145.05)",
+          "oklch(83.57% 0.0126 145.05)",
+          "oklch(95% 0.0126 145.05)"
+        ]
+      },
+      "product": {
+        "role": "neutral",
+        "displayName": "Deep Studio Green",
+        "tonalRamp": [
+          "oklch(15% 0.0076 163.89)",
+          "oklch(26.43% 0.0076 163.89)",
+          "oklch(37.86% 0.0076 163.89)",
+          "oklch(49.29% 0.0076 163.89)",
+          "oklch(60.71% 0.0076 163.89)",
+          "oklch(72.14% 0.0076 163.89)",
+          "oklch(83.57% 0.0076 163.89)",
+          "oklch(95% 0.0076 163.89)"
+        ]
+      },
+      "primary-text": {
+        "role": "neutral",
+        "displayName": "Deep Olive Action Text",
+        "tonalRamp": [
+          "oklch(15% 0.0146 126.64)",
+          "oklch(26.43% 0.0146 126.64)",
+          "oklch(37.86% 0.0146 126.64)",
+          "oklch(49.29% 0.0146 126.64)",
+          "oklch(60.71% 0.0146 126.64)",
+          "oklch(72.14% 0.0146 126.64)",
+          "oklch(83.57% 0.0146 126.64)",
+          "oklch(95% 0.0146 126.64)"
+        ]
+      },
+      "primary-hover": {
+        "role": "primary",
+        "displayName": "Pale Yellow Hover",
+        "tonalRamp": [
+          "oklch(15% 0.1417 108.76)",
+          "oklch(26.43% 0.1417 108.76)",
+          "oklch(37.86% 0.1417 108.76)",
+          "oklch(49.29% 0.1417 108.76)",
+          "oklch(60.71% 0.1417 108.76)",
+          "oklch(72.14% 0.1417 108.76)",
+          "oklch(83.57% 0.1417 108.76)",
+          "oklch(95% 0.1417 108.76)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Editorial Display",
+        "purpose": "The three-line hero statement."
+      },
+      "headline": {
+        "displayName": "Story Headline",
+        "purpose": "Large story statements."
+      },
+      "title": {
+        "displayName": "Answer Title",
+        "purpose": "Prepared answer headings."
+      },
+      "body": {
+        "displayName": "Story Body",
+        "purpose": "Supporting story explanation."
+      },
+      "answer": {
+        "displayName": "Answer Body",
+        "purpose": "Readable prepared-answer prose, capped at 65ch."
+      },
+      "label": {
+        "displayName": "Chapter Label",
+        "purpose": "Small, widely tracked section labels."
+      },
+      "action": {
+        "displayName": "Action Label",
+        "purpose": "Primary action text."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "canvas-reveal",
+        "value": "opacity .5s",
+        "purpose": "Reveal the live canvas over the supplied poster."
+      },
+      {
+        "name": "idle-pulse-period",
+        "value": "10s",
+        "purpose": "One soft wave follows the authored tile rows around the complete loop."
+      },
+      {
+        "name": "story-interpolation",
+        "value": "t*t*(3-2*t)",
+        "purpose": "Smooth scroll-driven opacity, translation, scatter, and reconnection between normalized thresholds."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "transition:none!important;scroll-behavior:auto",
+        "purpose": "Use still imagery and normal-flow stories, removing transitions and smooth scrolling."
+      },
+      {
+        "name": "native-scroll-text",
+        "value": "1px vertical translation per 1px native scroll",
+        "purpose": "Hero and first story text travel upward; final statement enters from below and settles. Sculpture scroll timing stays unchanged."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "tablet",
+        "value": "1000px"
+      },
+      {
+        "name": "mobile",
+        "value": "600px"
+      },
+      {
+        "name": "wide-story",
+        "value": "1001px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary action",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The main route into the prepared notebook.",
+      "html": "<a class=\"ds-primary\" href=\"#demo\">Explore the demo <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M6 18 18 6M6 6h12v12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/></svg></a>",
+      "css": ".ds-primary{font-family:Inter,Arial,sans-serif;font-weight:400;display:inline-flex;align-items:center;justify-content:space-between;gap:42px;background:var(--yellow,#f5f400);color:#11140d;border:0;border-radius:99px;padding:18px 25px;font-size:14px;line-height:1.4;text-decoration:none}.ds-primary:hover{background:#ffff88}.ds-primary:focus-visible,.ds-outline:focus-visible,.ds-control:focus-visible,.ds-copy:focus-visible,.ds-tab:focus-visible,.ds-source:focus-visible,.ds-citation:focus-visible,.ds-nav a:focus-visible{outline:2px solid var(--yellow,#f5f400);outline-offset:6px}"
+    },
+    {
+      "name": "Outline action",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "Secondary navigation action with a light inversion on hover.",
+      "html": "<a class=\"ds-outline\" href=\"#demo\">Explore the demo <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M6 18 18 6M6 6h12v12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/></svg></a>",
+      "css": ".ds-outline{font-family:Inter,Arial,sans-serif;font-weight:400;display:inline-flex;align-items:center;gap:36px;background:transparent;color:#d3d5cc;border:1px solid #d3d5cc99;border-radius:99px;padding:15px 24px;font-size:14px;text-decoration:none}.ds-outline:hover{background:var(--paper,#f2f1e8);color:var(--ink,#101214)}.ds-primary:focus-visible,.ds-outline:focus-visible,.ds-control:focus-visible,.ds-copy:focus-visible,.ds-tab:focus-visible,.ds-source:focus-visible,.ds-citation:focus-visible,.ds-nav a:focus-visible{outline:2px solid var(--yellow,#f5f400);outline-offset:6px}"
+    },
+    {
+      "name": "Sculpture control",
+      "kind": "button",
+      "refersTo": "button-control",
+      "description": "Quiet utility pill for expansion, reset, and pause.",
+      "html": "<button class=\"ds-control\" aria-pressed=\"false\">Expand sculpture</button>",
+      "css": ".ds-control{font-family:Inter,Arial,sans-serif;font-weight:400;background:transparent;border:1px solid var(--line,#f2f1e82b);color:#c3c6b9;font-size:10px;padding:10px 13px;border-radius:99px;white-space:nowrap;cursor:pointer}.ds-control:hover{border-color:var(--yellow,#f5f400);color:var(--yellow,#f5f400)}.ds-control:disabled{opacity:.4;cursor:default}.ds-primary:focus-visible,.ds-outline:focus-visible,.ds-control:focus-visible,.ds-copy:focus-visible,.ds-tab:focus-visible,.ds-source:focus-visible,.ds-citation:focus-visible,.ds-nav a:focus-visible{outline:2px solid var(--yellow,#f5f400);outline-offset:6px}"
+    },
+    {
+      "name": "Copy answer",
+      "kind": "button",
+      "refersTo": "button-copy",
+      "description": "Compact notebook utility; the application replaces its label with copy feedback.",
+      "html": "<button class=\"ds-copy\">Copy answer</button>",
+      "css": ".ds-copy{font-family:Inter,Arial,sans-serif;font-weight:400;border:1px solid #7f877180;color:var(--paper,#f2f1e8);background:none;border-radius:99px;padding:9px 14px;font-size:11px;cursor:pointer}.ds-primary:focus-visible,.ds-outline:focus-visible,.ds-control:focus-visible,.ds-copy:focus-visible,.ds-tab:focus-visible,.ds-source:focus-visible,.ds-citation:focus-visible,.ds-nav a:focus-visible{outline:2px solid var(--yellow,#f5f400);outline-offset:6px}"
+    },
+    {
+      "name": "Question tabs",
+      "kind": "custom",
+      "refersTo": "question-tab",
+      "description": "Three prepared questions; a yellow rule identifies the active answer. Application JavaScript supplies keyboard selection.",
+      "html": "<div class=\"ds-questions\" role=\"tablist\" aria-label=\"Explore a sample question\"><button class=\"ds-tab\" role=\"tab\" aria-selected=\"true\">What matters most?</button><button class=\"ds-tab\" role=\"tab\" aria-selected=\"false\" tabindex=\"-1\">What could slow us down?</button><button class=\"ds-tab\" role=\"tab\" aria-selected=\"false\" tabindex=\"-1\">What happens next?</button></div>",
+      "css": ".ds-questions{display:flex;gap:25px;border-bottom:1px solid var(--line,#f2f1e82b);padding-top:15px;min-height:72px;align-items:stretch}.ds-tab{font-family:Inter,Arial,sans-serif;font-weight:400;background:none;border:0;border-radius:0;border-bottom:3px solid transparent;padding:10px 0 18px;color:#b8bdaf;font-size:12px;text-align:left;flex:1;cursor:pointer}.ds-tab[aria-selected=true]{color:var(--paper,#f2f1e8);border-bottom-color:var(--yellow,#f5f400)}.ds-tab:hover{color:var(--paper,#f2f1e8)}.ds-primary:focus-visible,.ds-outline:focus-visible,.ds-control:focus-visible,.ds-copy:focus-visible,.ds-tab:focus-visible,.ds-source:focus-visible,.ds-citation:focus-visible,.ds-nav a:focus-visible{outline:2px solid var(--yellow,#f5f400);outline-offset:6px}"
+    },
+    {
+      "name": "Source row",
+      "kind": "custom",
+      "description": "A linked document thumbnail and its compact context.",
+      "html": "<button class=\"ds-source\" data-linked=\"true\"><span class=\"ds-sheet\" aria-hidden=\"true\"><i></i><i></i><i></i><i></i></span><span><strong>Research notes</strong><small>Early interviews on trust, clarity and workflow.</small></span></button>",
+      "css": ".ds-source{font-family:Inter,Arial,sans-serif;font-weight:400;display:flex;width:100%;align-items:center;text-align:left;gap:16px;padding:17px 0;border:0;border-bottom:1px solid var(--line,#f2f1e82b);background:none;color:var(--paper,#f2f1e8);cursor:pointer}.ds-source strong{display:block;font-size:14px;font-weight:400;margin-bottom:8px}.ds-source small{display:block;font-size:11px;line-height:1.6;color:#b3b8aa}.ds-source:hover strong{color:var(--yellow,#f5f400)}.ds-sheet{display:block;width:64px;height:86px;flex:none;background:#e4e5dc;border:1px solid transparent;padding:13px 8px}.ds-source[data-linked=true] .ds-sheet{border-color:var(--yellow,#f5f400)}.ds-sheet i{height:2px;background:#868d8059;display:block;margin:4px 0}.ds-sheet i:nth-child(3){background:#c7c92d;height:7px}.ds-sheet i:last-child{width:60%}.ds-primary:focus-visible,.ds-outline:focus-visible,.ds-control:focus-visible,.ds-copy:focus-visible,.ds-tab:focus-visible,.ds-source:focus-visible,.ds-citation:focus-visible,.ds-nav a:focus-visible{outline:2px solid var(--yellow,#f5f400);outline-offset:6px}"
+    },
+    {
+      "name": "Source citation",
+      "kind": "custom",
+      "refersTo": "citation-number",
+      "description": "Numbered evidence link that opens and focuses its original note.",
+      "html": "<button class=\"ds-citation\"><span>01</span><div><strong>Research notes</strong><p>Answers should retain a clear link to their original source.</p><small>Read the original note</small></div></button>",
+      "css": ".ds-citation{font-family:Inter,Arial,sans-serif;font-weight:400;display:grid;grid-template-columns:28px 1fr;column-gap:15px;text-align:left;align-items:start;border:0;background:none;color:#c3c9ba;padding:0;cursor:pointer}.ds-citation>span{background:var(--yellow,#f5f400);color:#11150c;font-size:10px;padding:7px 0;text-align:center;border-radius:3px}.ds-citation strong{display:block;color:var(--paper,#f2f1e8);font-size:13px;font-weight:400;margin-bottom:7px}.ds-citation p{margin:0;font-size:12px;line-height:1.6}.ds-citation small{display:block;font-size:10px;margin-top:7px;color:#a7af9a}.ds-citation:hover strong{text-decoration:underline;text-underline-offset:4px}.ds-primary:focus-visible,.ds-outline:focus-visible,.ds-control:focus-visible,.ds-copy:focus-visible,.ds-tab:focus-visible,.ds-source:focus-visible,.ds-citation:focus-visible,.ds-nav a:focus-visible{outline:2px solid var(--yellow,#f5f400);outline-offset:6px}"
+    },
+    {
+      "name": "Notebook container",
+      "kind": "card",
+      "refersTo": "notebook",
+      "description": "A flat, divided source-and-answer surface.",
+      "html": "<div class=\"ds-notebook\"><aside class=\"ds-context\">YOUR CONTEXT</aside><div class=\"ds-answer\">Keep the source in sight.</div></div>",
+      "css": ".ds-notebook{font-family:Inter,Arial,sans-serif;font-weight:400;display:grid;grid-template-columns:27% 73%;border:1px solid #747b6b80;border-radius:16px;overflow:hidden;background:var(--notebook,#101510);color:var(--paper,#f2f1e8)}.ds-context{padding:28px 25px;border-right:1px solid var(--line,#f2f1e82b);font-size:11px;letter-spacing:.2em;color:#c6c9bc}.ds-answer{padding:40px 30px;font-size:27px;letter-spacing:-.045em}@media(max-width:600px){.ds-notebook{display:block;border-radius:12px}.ds-context{border-right:0;border-bottom:1px solid var(--line,#f2f1e82b);padding:19px 18px}}"
+    },
+    {
+      "name": "Navigation",
+      "kind": "nav",
+      "description": "Spaced wordmark and compact text routes.",
+      "html": "<div class=\"ds-nav\"><a class=\"ds-wordmark\" href=\"#top\">APERTURE</a><nav aria-label=\"Main navigation\"><a href=\"#idea\">The idea</a><a href=\"#demo\">Inside APERTURE</a></nav></div>",
+      "css": ".ds-nav{font-family:Inter,Arial,sans-serif;font-weight:400;display:flex;align-items:center;justify-content:space-between;gap:36px;color:var(--paper,#f2f1e8)}.ds-nav a{color:inherit;text-decoration:none}.ds-wordmark{font-size:16px;letter-spacing:.43em}.ds-nav nav{display:flex;align-items:center;gap:44px;font-size:14px;color:#d3d5cc}@media(max-width:600px){.ds-wordmark{font-size:12px;letter-spacing:.32em}.ds-nav nav{font-size:11px;gap:18px}.ds-nav nav>a:first-child{display:none}}.ds-primary:focus-visible,.ds-outline:focus-visible,.ds-control:focus-visible,.ds-copy:focus-visible,.ds-tab:focus-visible,.ds-source:focus-visible,.ds-citation:focus-visible,.ds-nav a:focus-visible{outline:2px solid var(--yellow,#f5f400);outline-offset:6px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Connection Studio",
+    "overview": "A dark, spacious studio gives the existing machined infinity sculpture room to communicate connection. Warm off-white Inter supplies the editorial voice; acid yellow marks actions, evidence, and the sculpture's inner surfaces. This descriptive name records the approved world rather than introducing a new direction.\n\nOversized, tightly spaced statements alternate with a compact source notebook. The material character comes from the actual sculpture and its rendered close-up. Interaction makes the object's assembly legible, while still imagery preserves the same identity when motion is unavailable.",
+    "keyCharacteristics": [
+      "Charcoal surfaces, warm off-white type, and selective acid yellow.",
+      "Regular-weight Inter with tight display tracking and spacious section labels.",
+      "Real machined-metal imagery, fine rules, and restrained rounded controls.",
+      "Visible source relationships and equivalent live or still presentations."
+    ],
+    "rules": [
+      {
+        "name": "The Connection Accent Rule",
+        "body": "Use yellow to identify an action, an active relationship, or an authored sculpture surface; preserve the broad charcoal field.",
+        "section": "colors"
+      },
+      {
+        "name": "The Tight Display Rule",
+        "body": "Preserve regular weight and negative tracking in large headings; reserve expanded tracking for small labels and the wordmark.",
+        "section": "typography"
+      }
+    ],
+    "dos": [
+      "Do preserve the approved charcoal, warm off-white, acid-yellow, and Inter identity.",
+      "Do use the existing sculpture and its material detail as the image authority.",
+      "Do keep question selection, citations, and original notes visibly connected.",
+      "Do retain keyboard focus, inactive-overlay isolation, and a usable still presentation.",
+      "Do keep prepared notebook examples visibly labeled as fictional."
+    ],
+    "donts": [
+      "Don't replace the real sculpture with a generic infinity icon or unrelated 3D asset.",
+      "Don't turn the restrained notebook into a grid of floating shadow cards.",
+      "Don't add a new accent family or a competing display typeface.",
+      "Don't hide the source relationship behind purely decorative motion.",
+      "Don't imply live AI generation or commercial proof in this design demonstration."
+    ]
+  }
+}

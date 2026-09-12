@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "fixedStepConvergence": [
+    {
+      "fps": 30,
+      "settled": 9.072929962883336e-9
+    },
+    {
+      "fps": 60,
+      "settled": 9.072929962883336e-9
+    },
+    {
+      "fps": 144,
+      "settled": 9.072934403775434e-9
+    }
+  ],
+  "stress": "bounded after force reversals and long gaps"
+}

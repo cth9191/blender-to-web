@@ -1,0 +1,4 @@
+interface:
+  display_name: "Blender to Web"
+  short_description: "Build living 3D heroes from editable Blender assets"
+  default_prompt: "Use $blender-to-web to create an original interactive hero using the proven Blender-to-browser workflow."

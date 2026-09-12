@@ -1,0 +1,90 @@
+{
+  "idle": {
+    "active": true,
+    "expanded": false,
+    "frames": 153,
+    "instances": 1792,
+    "drawCalls": 3,
+    "triangles": 336896,
+    "maxDisplacement": 0,
+    "disturbedPieces": 0,
+    "rotation": [
+      0.17,
+      -0.12
+    ],
+    "fps": 60.00600060005999,
+    "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5090 (0x00002B85) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "pulsePhase": 0.25498999999985084,
+    "pulseGain": 0.9394865727164121,
+    "pulsePeriod": 10
+  },
+  "later": {
+    "active": true,
+    "expanded": false,
+    "frames": 318,
+    "instances": 1792,
+    "drawCalls": 3,
+    "triangles": 336896,
+    "maxDisplacement": 0,
+    "disturbedPieces": 0,
+    "rotation": [
+      0.17,
+      -0.12
+    ],
+    "fps": 60.00600060005995,
+    "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5090 (0x00002B85) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "pulsePhase": 0.5299699999998521,
+    "pulseGain": 0.9970609532943722,
+    "pulsePeriod": 10
+  },
+  "brushing": {
+    "active": true,
+    "expanded": false,
+    "frames": 384,
+    "instances": 1792,
+    "drawCalls": 3,
+    "triangles": 336896,
+    "maxDisplacement": 1.298632432787534,
+    "disturbedPieces": 227,
+    "rotation": [
+      0.17,
+      -0.12
+    ],
+    "fps": 59.99999999999997,
+    "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5090 (0x00002B85) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "pulsePhase": 0.6399699999998536,
+    "pulseGain": 0.06881340085387379,
+    "pulsePeriod": 10
+  },
+  "expanded": {
+    "active": true,
+    "expanded": true,
+    "frames": 611,
+    "instances": 1792,
+    "drawCalls": 3,
+    "triangles": 336896,
+    "maxDisplacement": 2.2785310910264642,
+    "disturbedPieces": 0,
+    "rotation": [
+      0.17,
+      -0.12
+    ],
+    "fps": 60.00600060006002,
+    "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5090 (0x00002B85) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "pulsePhase": 0.01838999999970281,
+    "pulseGain": 0.06200126070069842,
+    "pulsePeriod": 10
+  },
+  "errors": [],
+  "status": "passed",
+  "checks": [
+    "pulse travels over time",
+    "no extra draw calls",
+    "brush dims pulse",
+    "idle restores pulse",
+    "pause freezes phase",
+    "expansion dims pulse",
+    "reassembly restores pulse",
+    "reduced motion still"
+  ]
+}
